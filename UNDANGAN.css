@@ -1,0 +1,653 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body.no-scroll{
+    overflow: hidden;
+}
+audio {
+    display: none;
+}
+
+
+.cover {
+    text-align: center;
+    padding: 20px;  
+    background-color: #ffffff;
+    background-image: url('Bingkai.jpg'); 
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 393px;
+    height: 852px;
+    position: relative;
+}
+
+.ayat {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    background-image: url('Bingkai.jpg'); 
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 393px;
+    height: 852px;
+    position: relative;
+}
+
+.mempelai {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    background-image: url('Bingkai.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 393px;
+    height: 852px;
+    position: relative;
+}
+
+.Wedding-event {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    background-image: url('Bingkai.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 393px;
+    height: 852px;
+    position: relative;
+}
+
+.our-gallery {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    background-image: url('Bingkai.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 393px;
+    height: 852px;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    background-image: url('Bingkai.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 393px;
+    height: 852px;
+    position: relative;
+}
+
+.hadiah {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    background-image: url('Bingkai.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 393px;
+    height: 852px;
+    position: relative;
+}
+
+.suci {
+    text-align: center;
+}
+.suci h3 {
+    margin: -80px 0px 54px 0px;
+    font-size: 24px;
+    color: #000;
+}
+.suci p {
+font-size: 24px;
+color: #555;
+margin : 54px 44px 0px 44px ;
+text-align: center; 
+}
+.surah{
+    margin: 10px;
+    font-style: italic;
+    color: #000;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #000000;
+    margin: 153px 80px 67px;
+}
+
+.line2 {
+    width: 50px;
+    height: 2px;
+    background-color: #000000;
+    margin: -68px 227px 67px;
+}
+
+header {
+    margin : 247px 27px 10px 27px; 
+}
+
+.cover h1 {
+    font-size: 35px;
+    color: #210000;
+    margin-bottom: 10px;
+}
+
+.cover h2 {
+    color: #DED17A;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-style: italic;
+}
+.cover p{
+    font-size: 20px;
+}
+
+.invite p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Invite {
+    background-color: hsl(0, 0%, 0%);
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 45px 25px 239px 0px;
+    width: 342px;
+    height: 188px;
+}
+
+.Invite h3 {
+    color: #DED17A;
+    font-size: 24px;
+    margin-top: 13px;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 22px;
+    margin-bottom: 43px;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+button:hover {
+    background-color: #d4a017;
+    color: black;
+}
+
+.groom-bride {
+    text-align: center;
+}
+.groom-bride h3 {
+font-size: 24px;
+color: #000;
+margin : -46px 0px 20px 0px;
+}
+
+.line3 {
+    width: 70px;
+    height: 2px;
+    background-color: #000000;
+    margin: 230px 278px 32px 26px;
+}
+
+.line4 {
+    width: 70px;
+    height: 2px;
+    background-color: #000000;
+    margin: -36px 273px 24px 258px;
+}
+
+.groom-bride p {
+    font-size: 15px;
+    color: #555;
+    margin: 5px 36px 35px 36px;
+}
+.isi {
+    margin: 0px;
+}
+.line5 {
+    width: 100px;
+    height: 2px;
+    background-color: #000000;
+    margin: -8px 273px 24px 31px
+}
+.line6 {
+    width: 100px;
+    height: 2px;
+    background-color: #000000;
+    margin: -8px 273px 24px 31px;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profil-item {
+    text-align: center;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.profil-pict {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin : 0px;
+}
+
+.profil-item h4 {
+    font-size: 16px;
+    margin : 10px 0px 10px;
+}
+.profil-item p {
+    font-size: 14px;
+    color: #000000;
+    margin: -20px 18px 10px 16px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    display: inline-block;
+    background-color: #DED17A;
+    width: 23px;
+    height: 23px;
+    border-radius: 2px;
+
+}
+
+.social-icons img {
+    width: 15px;
+    height: 15px;
+    margin: 4px 3px 4px 3px;
+}
+
+
+ .event-header {
+    text-align: center;
+    margin: 85px 0px 19px 0px;
+ }
+
+ .line7 {
+    width: 50px;
+    height: 2px;
+    background-color: #000000;
+    margin: -41px 273px 24px 48px;
+ }
+
+ .line8 {
+    width: 50px;
+    height: 2px;
+    background-color: #000000;
+    margin: -26px 273px 24px 258px;
+ }
+
+ .event-header h1 {
+    font-size: 24px;
+    margin: -20px 0px 25px 0px;
+    color: #000;
+ }
+
+ .event-date {
+    display: flex;
+    justify-content: center;
+ }
+
+ .timer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.time-box {
+    background-color: #d4c074;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.time-box span {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.time-box p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+ .date {
+    font-size: 48px;
+    color: #000;
+ }
+
+ .month-year {
+    font-size: 32px;
+    text-align: left;
+    color: #000;
+    margin: -11px 4px 32px 28px;
+}
+
+ .akad-nikah h2 {
+    text-align: center;
+    color: #d4c074;
+    margin: 25px 44px 10px 44px;
+    font-size: 32px;
+ }
+ 
+.resepsi h2 {
+    text-align: center;
+    color: #d4c074;
+    font-size: 32px;
+    margin: -50px 75px 10px 75px;
+}
+
+.event-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+.info-box {
+    text-align: center;
+    border: 1px solid #d4c074;
+    padding: 5px 5px 0px 5px;
+    border-radius: 10px;
+    width: 184px;
+    height: 48px;
+    margin: -15px 5px 10px 10px;
+    white-space: nowrap;
+}
+
+.time {
+    text-align: center;
+    margin: -11px 0;
+}
+
+.time p {
+    border: 1px solid #d4c074;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    width: 184px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 21px 59px 15px;
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #DED17A;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons .btn.map {
+    background-color: #DED17A;
+}
+.buttons .btn.calendar {
+    background-color: #DED17A;
+}
+.our-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.our-gallery h1 {
+    margin: 122px 95px 15px 95px;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+}
+
+.our-gallery img {
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
+    border-radius: 10px;
+}
+
+.our-gallery img:hover {
+    transform: scale(1.05);
+}
+.foto1 {
+    width: 98px;
+    height: 138px;
+    margin:-30px -7px 5px 3px;
+}
+.foto2 {
+    width: 310px;
+    height: 130px;
+    margin: -29px 8px 137px 17px
+}
+
+.container h1 {
+    margin: 170px 67px 30px 67px;
+    font-style: italic;
+}
+
+form {
+    text-align: left;
+    margin-top: 30px;
+}
+
+label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 333px;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #DED17A;
+    background-color: #DED17A;
+    font-size: 1em;
+    outline: none;
+    text-align: left ;
+}
+
+.kirim button {
+color: #f2f2f2;
+background-color: #DED17A;
+border-radius: 10px;
+width: 131px;
+height: 40px;
+margin: 30px 136px 171px 115px;
+}
+
+.kirim button:hover {
+    background-color: #000000;
+}
+
+.gift h2 {
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 35px;
+  }
+  
+  .opsi-pembayaran {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f5db;
+    padding: 20px 35px 20px 35px;
+    border-radius: 10px;
+    margin: 50px 16px 40px -1px ;
+    border: 1px solid #d1b77c;
+    height: 225px;
+    width: 361px;
+  }
+  
+  .pembayaran-gopay img {
+    width: 131px;
+    height: 75px;
+    margin: 0px 26px 10px -15px;
+  }
+
+  .pembayaran-gopay p {
+    font-size: 16px;
+    font-style: normal;
+    margin: -25px 20px 10px -22px;
+  }
+
+  .pembayaran-bca img {
+    width: 131px;
+    height: 35px;
+    margin: 104px -217px 7px -604px;
+  }
+
+  .pembayaran-bca p {
+    font-size: 16px;
+    font-style: normal;
+    margin: -6px 34px -8px -335px;
+  }
+
+  .pembayaran-dana img {
+    width: 131px;
+    height: 35px;
+    margin:23px 17px 10px 33px;
+  }
+
+  .pembayaran-dana p {
+    font-size: 16px;
+    font-style: normal;
+  }
+
+  
+  .terima-kasih {
+    background-color: #f9f5db;
+    padding: 8px 5px 8px 5px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid #d1b77c;
+    width: 361px;
+    height: 225px;
+  }
+  
+  .terima-kasih p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-style: normal;
+  }
+.navbar {
+    color: #fff;
+    height: 50px;
+    width: 393px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 50px;
+  }
+  
+  .love-icon,
+  .event-icon,
+  .gallery-icon,
+  .rsvp-icon,
+  .gift-icon,
+  img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+  }
+  
+  .love-icon,
+  .event-icon,
+  .gallery-icon,
+  .rsvp-icon,
+  .gift-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 7px;
+    font-family: "mont-rg", sans-serif;
+    font-weight: 500;
+    transition: background-color 0.1s ease;
+    
+  }
+  
+  .love-icon:hover,
+  .event-icon:hover,
+  .gallery-icon:hover,
+  .rsvp-icon:hover,
+  .gift-icon:hover {
+    background-color: #DED17A;
+  } 
+
+  #navbar {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#navbar.show-navbar {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar .active {
+    background-color: #f0f0f0; /* Contoh warna latar belakang */
+    color: #333; /* Contoh warna teks */
+    font-weight: bold;
+}
